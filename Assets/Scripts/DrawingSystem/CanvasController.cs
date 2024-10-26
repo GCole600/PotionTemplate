@@ -83,11 +83,11 @@ namespace DrawingSystem
         {
             canvas.UpdateImage(locations, colors);
         }
+        
         public void DrawPixels(Color[] colors) //Used if you wanted to redraw the ENTIRE canvas.
         {
             canvas.UpdateImage(colors);
         }
-
 
         public Color[] Snapshot()
         {
